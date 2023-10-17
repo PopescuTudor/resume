@@ -1,10 +1,12 @@
-import './normalize.css'
-
+import './normalize.css';
+import Layout from './components/layout';
+import styled from 'styled-components';
 export default function App() {
   return (
-    <main>
-      Hello Resume!
-    </main>
+    <Layout>
+      New text
+    </Layout>
   )
 }
+
 
