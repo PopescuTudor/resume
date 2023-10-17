@@ -1,14 +1,8 @@
-import './App.css'
-import styled from 'styled-components';
 export default function App() {
   return (
-    <Main>
-      React ⚛️ + Vite ⚡ + Replit 🌀
-    </Main>
+    <main>
+      Hello Resume!
+    </main>
   )
 }
-
-const Main = styled.main`
-    color: red;
-  `
 
