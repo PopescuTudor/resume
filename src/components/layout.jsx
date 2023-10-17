@@ -4,7 +4,12 @@ const Layout = (props) => {
   return (
     <Background>
       <Page>
-        {props.children}
+        <Column>
+          {props.left}
+        </Column>
+        <Column>
+          {props.right}
+        </Column>
       </Page>
     </Background>
   )
@@ -12,7 +17,7 @@ const Layout = (props) => {
 
 export default Layout;
 
-const Background = styled.div `
+const Background = styled.div`
   width: 100vw;
   min-height: 100vh;
   display: flex;
@@ -21,7 +26,8 @@ const Background = styled.div `
   background: #7E41FF;
 `;
 
-const Page = styled.div `
+const Page = styled.div`
+  display: flex;
   margin: 45px 58.5px 74px 66.5px;
   width: 769px;
   min-height: 1247px;
@@ -29,4 +35,9 @@ const Page = styled.div `
   border: 5px solid #000;
   background: #FCC526;
   box-shadow: 24px 20px 0px 0px rgba(52, 52, 51, 0.35);
+  flex-direction: row;
+`;
+
+const Column = styled.div`
+  flex: 1;
 `;
