@@ -22,6 +22,7 @@ const Container = styled.div`
 
   margin-top: 43px;
   margin-left: 50px;
+  margin-bottom: 45px;
 `;
 
 const Name = styled.span `
