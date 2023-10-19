@@ -18,6 +18,7 @@ const WorkExperience = () => {
             'Fusion360',
             'Mechanical Eng.'
             ]}
+          boxShadowColor="#3DC39B"
         />
         <ExperienceCard 
           title="Developer"
@@ -32,6 +33,7 @@ const WorkExperience = () => {
             'Teamwork',
             'Design lead'
             ]}
+          boxShadowColor="#928CF8"
         />
         <ExperienceCard 
           title="Engineer"
@@ -46,6 +48,22 @@ const WorkExperience = () => {
             'Java',
             'Tech lead'
             ]}
+          boxShadowColor="#FE74A6"
+        />
+        <ExperienceCard 
+          title="Engineer"
+          start="Jun 2022"
+          end="Present"
+          logo="https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png"
+          companyName="Blueprint"
+          location="Timisoara, RO"
+          bulletPoints={[
+            'Scala',
+            'Object Oriented Programming',
+            'Java',
+            'Tech lead'
+            ]}
+          boxShadowColor="#5B6DFF"
         />
       </ExperienceList>
     </div>

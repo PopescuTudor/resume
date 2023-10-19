@@ -28,7 +28,7 @@ const Container = styled.div`
 const Name = styled.span `
   color: #000;
   font-family: Lato;
-  font-size: 36px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 900;
   line-height: 140%; /* 50.4px */

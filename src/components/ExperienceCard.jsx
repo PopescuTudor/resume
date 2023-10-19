@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const ExperienceCard = (props) => {
   return(
-    <Container>
+    <Container style={{ boxShadow: `15px 15px 0px 0px ${props.boxShadowColor}`}}>
       <SpacedColumn>
         <Title>{props.title}</Title>
         <Period>{props.start} - {props.end}</Period>
@@ -27,7 +27,7 @@ export default ExperienceCard;
 
 const Container = styled.div `
   display: flex;
-  width: 370px;
+  width: 300px;
   padding: 31px 24.5px 31px 26px;
   margin-left: -26px;
   flex-direction: column;
@@ -35,7 +35,7 @@ const Container = styled.div `
   gap: 8px;
   border: 3px solid #211814;
   background: #FFF;
-  box-shadow: 15px 15px 0px 0px #3DC39B;
+  
 `;
 
 const SpacedColumn = styled.div`
@@ -106,4 +106,6 @@ const Point = styled.li`
 
 const BulletPoints = styled.ul`
   columns: 2;
+  padding: 0px 0px 0px 20px;
+  margin: 0px;
 `;
