@@ -28,8 +28,9 @@ const Hobbies = styled.div`
   font-style: normal;
   font-weight: 800;
   line-height: 100%;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 30px;
+  margin-bottom: 10px;
 `;
 
 export default Hobby;
